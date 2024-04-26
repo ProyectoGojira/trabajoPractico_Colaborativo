@@ -1,0 +1,33 @@
+.navbar {
+    border-radius: 20px;
+    margin: 8px;
+    border: solid 5px #eee594;
+}
+
+body {
+    background-color: #001313;
+}
+
+main {
+    padding: 10px;
+}
+
+.accordion-body {
+    background-color: #000d0d;
+}
+
+.accordion-button {
+    background-color: #000d0d;
+}
+
+.tt {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    max-width: fit-content;
+    max-height: fit-content;
+
+}
+
