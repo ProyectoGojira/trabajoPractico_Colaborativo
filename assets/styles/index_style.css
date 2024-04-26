@@ -1,9 +1,57 @@
 body{
-    background-color: black;
+    background-color: #001313;
 }
 
 .navbar {
     border-radius: 20px;
     margin: 8px;
     border: solid 5px #eee594;
+}
+
+main{
+    border-radius: 20px;
+    border: solid 5px #eee594;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: #000d0d; 
+}
+
+main h1{
+    margin: 20px;
+    padding: 15px;
+    color: #e7d852;
+    border: 3px solid #e6da74;
+    border-radius: 40px;
+}
+
+main p{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #ece49d;
+}
+
+main img{
+    border-radius: 20px;
+    height: auto;
+}
+
+#carouselExampleAutoplaying{
+    max-width: 800px;
+    margin: 20px;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+}
+
+aside{
+    margin: 20px;
+    background-color: red;
+    flex: 0 0 300px;
 }
