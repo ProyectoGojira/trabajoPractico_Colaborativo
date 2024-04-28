@@ -27,3 +27,15 @@ body{
 .navbar img:hover{
     transform: scale(1.04);
 }
+
+main .card-body{
+    background-color: black;
+}
+
+main .card-title{
+    color:#e7d852;
+}
+
+main .card-text{
+    color: #ece49d;
+}
