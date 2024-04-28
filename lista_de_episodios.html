@@ -44,14 +44,16 @@
     </nav>
     <div class="contenedor">
         <main>
-          <h1>PUEDES VERLO EN</h1>
-          <img src="assets/img/lista_de_episodios/crunchyroll.png" height="450" alt="">
+          <div class="crunchy_ver">
+          <h1 class="titulo_crunchy">PUEDES VERLO EN</h1>
+          <a href="https://www.crunchyroll.com/es/series/GRDV0019R/jujutsu-kaisen" target="_blank"><img src="assets/img/lista_de_episodios/crunchyroll.png" alt=""></a>
+          </div>
             <div class="accordion" id="accordionExample">
                 <div class="accordion-item" style="background-color: #000d0d;">
                   <h2 class="accordion-header" >
                     <button class="accordion-button" style="background-color: #000d0d;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" >
-                      <img src="assets/img/lista_de_episodios/poster.jpg" height="300" alt="">
-                      <h1 class="card-title" style="color: white;">TEMPORADA 1</h1>
+                      <img src="assets/img/lista_de_episodios/poster.jpg" class="poster-accordion" height="300" alt="">
+                      <h1 class="card-title-butn" style="color: #e7d852;">TEMPORADA 1</h1>
                     </button>
                   </h2>
                   <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -280,8 +282,8 @@
                 <div class="accordion-item" style="background-color: #000d0d;">
                   <h2 class="accordion-header">
                     <button class="accordion-button collapsed" style="background-color: #000d0d;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      <img src="assets/img/lista_de_episodios/poster2.jpg" height="300" alt="">
-                      <h1 class="card-title" style="color: white;">TEMPORADA 2</h1>
+                      <img src="assets/img/lista_de_episodios/poster2.jpg" class="poster-accordion" height="300" alt="">
+                      <h1 class="card-title-butn" style="color: #e7d852;">TEMPORADA 2</h1>
                     </button>
                   </h2>
                   <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -501,14 +503,31 @@
                 <div class="accordion-item" >
                   <h2 class="accordion-header">
                     <button class="accordion-button collapsed" style="background-color: #000d0d;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        <img src="assets/img/lista_de_episodios/poster0.jpg" height="300" alt="">
-                        <h1 class="card-title" style="color: white;">PELÍCULA</h1>
+                        <img src="assets/img/lista_de_episodios/poster0.jpg" class="poster-accordion" height="300" alt="">
+                        <h1 class="card-title-butn" style="color: #e7d852;">PELÍCULA</h1>
                     </button>
                   </h2>
-                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample" >
                     <div class="accordion-body" style="background-color: #000d0d;">
                       <div class="card mb-3">
-                        <img src="..." class="card-img-top" alt="...">
+                        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="assets/img/lista_de_episodios/gif2.gif" class="d-block w-100 " alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="assets/img/lista_de_episodios/gif3.gif" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
                         <div class="card-body">
                           <h5 class="card-title">JUJUTSU KAISEN 0</h5>
                           <p class="card-text">Cuando apenas eran unos niños, Rika Orimoto murió en un accidente de tráfico justo ante los ojos de su buen amigo Yuka Okkotsu.

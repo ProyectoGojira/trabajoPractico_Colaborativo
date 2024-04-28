@@ -28,6 +28,13 @@ body{
     transform: scale(1.04);
 }
 
+main{
+    background-color: #000d0d;
+    border-radius: 20px;
+    margin: 20px;
+    border: solid 5px #eee594;
+}
+
 main .card-body{
     background-color: black;
 }
@@ -36,6 +43,44 @@ main .card-title{
     color:#e7d852;
 }
 
+main .card-title-butn{
+    margin-left: 30px;
+}
+
+main .poster-accordion{
+    border-radius: 10px;
+    border: solid 3px #eee594;
+}
+
 main .card-text{
     color: #ece49d;
+}
+
+main .crunchy_ver{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .crunchy_ver img{
+    height: 300px;
+    margin: 30px;
+    transition: transform 0.3s ease;
+}
+
+main .crunchy_ver img:hover{
+    transform: scale(1.05);
+}
+
+main .crunchy_ver .titulo_crunchy{
+    margin-top: 40px;
+    color: #e7d852;
+    border: 4px solid #ece49d;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+main .accordion-body{
+    padding: 50px;
 }
