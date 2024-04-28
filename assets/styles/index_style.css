@@ -100,17 +100,39 @@ aside h1{
     border-radius: 20px;
 }
 
-footer{
+.mas_informacion_pie{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 20px;
-    height: 200px;
+    width: fit-content;
     border-radius: 20px;
     background-color:#000d0d;
     border: solid 5px #eee594;
 }
 
 footer img{
-    height: 180px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+footer h1{
+    margin-bottom: 20px;
+    color: #e7d852;
+    border: 3px solid #e6da74;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #000202;
+}
+
+footer a{
+    text-decoration: none;
 }
