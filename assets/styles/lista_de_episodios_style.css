@@ -1,0 +1,29 @@
+body{
+    background-color: #001313;
+}
+
+.navbar {
+    border-radius: 20px;
+    margin: 8px;
+    border: solid 5px #eee594;
+}
+
+.navbar .nav-link{
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    transition: border-color 0.3s;
+}
+
+.navbar .nav-link:hover{
+    border-color:  #eee594;
+}
+
+
+.navbar-brand img{
+    transition: transform 0.3s ease;
+}
+
+.navbar img:hover{
+    transform: scale(1.04);
+}
