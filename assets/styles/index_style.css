@@ -8,9 +8,24 @@ body{
     border: solid 5px #eee594;
 }
 
-nav .imagengif img{
-    border-radius: 20px;
-    margin-right: 10px;
+.navbar .nav-link{
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    transition: border-color 0.3s;
+}
+
+.navbar .nav-link:hover{
+    border-color:  #eee594;
+}
+
+
+.navbar-brand img{
+    transition: transform 0.3s ease;
+}
+
+.navbar img:hover{
+    transform: scale(1.04);
 }
 
 main{
@@ -32,6 +47,15 @@ main h1{
     color: #e7d852;
     border: 3px solid #e6da74;
     border-radius: 40px;
+    cursor: default;
+}
+
+main .titulo h1{
+    transition: transform 0.3s ease;
+}
+
+main h1:hover{
+    transform: scale(1.1);
 }
 
 main p{
@@ -84,6 +108,19 @@ aside h1{
     font-size: 25px;
     padding: 10px;
     color: #e7d852;
+    
+}
+
+aside h1{
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    transition: border-color 0.3s;
+    cursor: default;
+}
+
+aside .titulo_aside h1:hover{
+    border-color: #e6da74;
 }
 
 .parrafos {
@@ -124,14 +161,20 @@ footer img{
     border-radius: 10px;
 }
 
-footer h1{
+footer .titulo h1{
     margin-bottom: 20px;
     color: #e7d852;
     border: 3px solid #e6da74;
     border-radius: 30px;
     padding: 10px;
     background-color: #000202;
+    transition: transform 0.3s ease;
 }
+
+footer h1:hover{
+    transform: scale(1.05);
+}
+
 
 footer a{
     text-decoration: none;
