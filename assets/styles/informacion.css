@@ -87,7 +87,7 @@ main {
 
 .cont {
     background-color: #000d0d;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .qq {
@@ -96,4 +96,12 @@ main {
 
 .al {
     color: white;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
 }
